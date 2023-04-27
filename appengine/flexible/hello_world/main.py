@@ -22,7 +22,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello() -> str:
     """Return a friendly HTTP greeting."""
-    return 'Hello World!'
+    return 'Balls!'
 
 
 if __name__ == '__main__':
