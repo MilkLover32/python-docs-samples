@@ -22,7 +22,15 @@ app = Flask(__name__)
 @app.route('/')
 def hello() -> str:
     """Return a friendly HTTP greeting."""
-    return 'Balls!'
+    return '<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Image</h2>
+<img src="https://i.redd.it/so8gmlksni901.jpg" alt="Trulli" width="954" height="626">
+
+</body>
+</html>'
 
 
 if __name__ == '__main__':
